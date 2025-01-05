@@ -18,10 +18,11 @@ const Menu = () => {
     const pizza = menu.filter(item => item.category === 'pizza');
     const offered = menu.filter(item => item.category === 'offered');
     return (
-        <div>
+        <div className=''>
             <Helmet>
                 <title>Flavor Haven | Menu</title>
             </Helmet>
+            
             <Cover img={menuImg} title="our menu"></Cover>
             {/* main cover */}
             <SectionTitle subHeading="Don't Miss" heading="Today's Offer"></SectionTitle>
