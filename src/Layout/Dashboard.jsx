@@ -16,7 +16,7 @@ const Dashboard = () => {
             <div className="w-64 min-h-screen bg-orange-400">
                 <ul className="menu p-4">
                     {
-                         isAdmin ?  <>
+                        isAdmin ? <>
                             <li>
                                 <NavLink to="/dashboard/adminHome">
                                     <FaHome></FaHome>
@@ -51,10 +51,11 @@ const Dashboard = () => {
                                         User Home</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/dashboard/reservation">
-                                        <FaCalendar></FaCalendar>
-                                        Reservation</NavLink>
+                                    <NavLink to="/dashboard/paymentHistory">
+                                        <FaList></FaList>
+                                         Payment History</NavLink>
                                 </li>
+                               
                                 <li>
                                     <NavLink to="/dashboard/cart">
                                         <FaShoppingCart></FaShoppingCart>
@@ -66,10 +67,11 @@ const Dashboard = () => {
                                         Add a Review</NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to="/dashboard/bookings">
-                                        <FaList></FaList>
+                                    <NavLink to="/dashboard/history">
+                                        <FaCalendar></FaCalendar>
                                         My Bookings</NavLink>
                                 </li>
+                               
                             </>
                     }
                     {/* shared nav links */}

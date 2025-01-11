@@ -96,9 +96,9 @@ const CheckoutForm = () => {
                     Swal.fire({
                         position: "top-end",
                         icon: "success",
-                        title: "Thank you for the taka paisa",
+                        title: "Thank you for your payment! Your meal is being prepared.",
                         showConfirmButton: false,
-                        timer: 1500
+                        timer: 2500
                     });
                     navigate('/dashboard/paymentHistory')
                 }
