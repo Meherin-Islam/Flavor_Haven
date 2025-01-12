@@ -4,7 +4,7 @@ Welcome to **Flavor Haven** – your ultimate food service companion! Explore, b
 
 🌐 **Live Website**: [Flavor Haven](https://flavor-haven-c360f.web.app/)
 
-🚀 **Backend API**: [Vercel Live Server](https://flavor-server.vercel.app)
+🚀 **Backend API**: [Vercel Live Server](https://flavor-server.vercel.app/menu)
 
 ### 📦 NPM Packages Used
 - **axios**: For API communication.
