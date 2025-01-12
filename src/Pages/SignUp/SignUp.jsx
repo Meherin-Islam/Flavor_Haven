@@ -53,14 +53,14 @@ const SignUp = () => {
     return (
         <>
             <Helmet>
-                <title>Bistro Boss | Sign Up</title>
+                <title>Flavor Haven | Sign Up</title>
             </Helmet>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
                     <div className="text-center lg:text-left">
                         <h1 className="text-5xl font-bold text-center ">Sign up now!</h1>
                         <p className="w-[500px] p-6">
-                        <Lottie animationData={signupData}></Lottie>
+                            <Lottie animationData={signupData}></Lottie>
                         </p>
                     </div>
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -100,7 +100,7 @@ const SignUp = () => {
                                 {errors.password?.type === 'minLength' && <p className="text-red-600">Password must be 6 characters</p>}
                                 {errors.password?.type === 'maxLength' && <p className="text-red-600">Password must be less than 20 characters</p>}
                                 {errors.password?.type === 'pattern' && <p className="text-red-600">Password must have one Uppercase one lower case, one number and one special character.</p>}
-                                
+
                             </div>
                             <div className="form-control mt-6">
                                 <input className="btn bg-teal-700 font-bold text-white text-xl hover:bg-teal-800" type="submit" value="Sign Up" />

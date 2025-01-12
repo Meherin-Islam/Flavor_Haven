@@ -57,14 +57,14 @@ const Login = () => {
     return (
         <>
             <Helmet>
-                <title>Bistro Boss | Login</title>
+                <title>Flavor Haven | Login</title>
             </Helmet>
             <div className="hero min-h-screen bg-base-200">
                 <div className="hero-content flex-col md:flex-row-reverse">
                     <div className="text-center md:w-1/2 lg:text-left">
                         <h1 className="text-5xl font-bold text-center">Login now!</h1>
                         <p className="py-6 ">
-                        <Lottie animationData={loginData}></Lottie>
+                            <Lottie animationData={loginData}></Lottie>
                         </p>
                     </div>
                     <div className="card md:w-1/2 max-w-sm shadow-2xl bg-base-100">
@@ -80,7 +80,7 @@ const Login = () => {
                                     <span className="label-text">Password</span>
                                 </label>
                                 <input type="password" name="password" placeholder="password" className="input input-bordered" />
-                                
+
                             </div>
                             <div className="form-control">
                                 <label className="label">
