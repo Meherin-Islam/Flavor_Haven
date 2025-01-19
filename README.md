@@ -1,8 +1,16 @@
-# React + Vite
+# Flavor Haven 🍽️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Flavor Haven** – your ultimate food service companion! Explore, book, and review seamlessly.
 
-Currently, two official plugins are available:
+🌐 **Live Website**: [Flavor Haven](https://flavor-haven-c360f.web.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 **Backend API**: [Vercel Live Server](https://flavor-server.vercel.app/menu)
+
+### 📦 NPM Packages Used
+- **axios**: For API communication.
+- **react**: Building the user interface.
+- **react-router-dom**: For client-side routing.
+- **firebase**: For authentication.
+- **react-context**: For state management.
+
+Enjoy the best flavors with us! 😋
